@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+header{
+    background: url(../img/header_bg.png)no-repeat center center/cover;
+    height: 700px;
+}
+.header__top{
+    font-size: 50px;
+    line-height: 30px;
+    color: #70869d;
+}
+.header__bottom{
+    font-size: 70px;
+    line-height: 50px;
+    color: #404040;   
+}
+.header__all{
+    position: absolute;
+    margin-top: 200px;
+}
+.main__text{
+    color: #70869d;
+    font-size: 16px;
+    font-family: 'RL';
+}
+.main__h2{
+    color: #1f3750;
+    font-size: 18;   
+    font-family: 'RB';
+}
+.main__left{
+    display: flex;
+    max-width: 540px;
+}
+.main__r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    width: 160px;
+    height: 40px;
+    color: #70869d;
+    background: #f2f2f2;
+    border-style: none;
+}
+button:hover{
+    color: #ffffff;
+    background: #0092b6;
+}
+.main__right{
+    display: flex;
+    max-width: 540px;
+
+}
+.main__top{
+    display: flex; 
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.pic{
+    max-width: 200px;
+    padding: 50px 30px;
+
+}
+.main__tp{
+    color: #1f3750;
+    text-decoration: underline;
+    font-family: 'RB';
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    
+}
+.main__bottom{
+    margin-top: 100px;
+    background: #f3f9ff;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left__info{
+    font-size: 20px;
+    font-family: 'RR';
+    color: #70869d;
+    margin-top: 8px;
+}
+.left__info:hover{  
+    color: #0092b6;
+}
+.info{
+    color: #1f3750;
+    font-family: 'RR';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.left{
+    display: block;
+}
+.all__info{
+    display: flex;
+    justify-content: space-between ;
+}
+.footer__right{
+ display: flex;
+}
+.footer__info{
+    color: #404040;
+    font-family: 'RR';
+    font-size: 14px;
+    margin-left: 40px;
+}
+footer{
+    margin-top: 50px;
+    background: #f3f9ff;
+}
+.footer__all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.footer__info:hover{
+    color: blue;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+/* Media start */
+/* ***************** */ 
+
+
+
+@media(max-width: 1100px){
+    .all__info {
+        display: block;
+        text-align: center;
+    }
+    .main__bottom {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main__top{
+        display: block;
+    }
+    .main__left{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main__r{
+        text-align: center;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .pic{
+        text-align: center;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+@media(max-width: 950px){
+    .footer__all{
+        display: block;
+        text-align: center;
+    }
+    .footer__right{
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+}
+@media(max-width: 890px){
+    header{
+        height: 400px;
+    }
+    .header__top{
+        font-size: 30px;
+    }
+    .header__bottom{
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media end */
+/* ***************** */
